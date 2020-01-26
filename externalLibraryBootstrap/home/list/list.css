@@ -1,0 +1,103 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: #CBD8C1
+}
+
+.navbar{
+    background-color: #434A3E; 
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link, .nav-link:hover{
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.fa-shopping-cart{
+    width: 15px;
+    height: 15px;
+    color: #ffffff;
+}
+
+.search-bar{
+    margin: 50px 0;
+}
+
+.search-bar > span{    
+    color: #434A3E;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 70px;
+}
+
+.search-bar > form > input{
+    width: 500px;
+    height: 30px;
+}
+
+.fa-search{
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    color: #9F9F9F; 
+    border: 1px solid #9F9F9F;
+    padding: 5px;
+}
+
+.product-img-container{
+    background-color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #9F9F9F;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.product-img{
+    width: 250px;
+    height: 250px;
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.product-img-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #EC7A23;
+    border: none;
+}
+
+.go-to-the-productDetails-page, .go-to-the-productDetails-page:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-notation-container{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 1px solid #9F9F9F;  
+}
+
+.page-notation{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #434A3E;
+    border: none;
+    border-left: 1px solid #9F9F9F;
+}
+
+.active{
+    background-color: #434A3E;
+    color: #ffffff;
+}

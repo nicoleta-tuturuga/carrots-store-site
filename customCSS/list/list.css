@@ -1,0 +1,132 @@
+header{
+    background-color: #434A3E;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header li{
+    margin-right: 30px;
+}
+
+header a, svg{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.home-links, .user-links{
+    display: flex;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.user-links > li{
+    display: flex;
+    align-items: center;
+}
+
+.fa-shopping-cart{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.search-bar > form{
+    display: flex;
+}
+
+.search-bar > span{    
+    color: #434A3E;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 70px;
+}
+
+.search-bar > form > input{
+    width: 500px;
+    height: 30px;
+}
+
+.fa-search{
+    height: 18px;
+    width: 18px;
+    padding: 7px;
+    background-color: #ffffff;
+    color: #9F9F9F;
+    border: 1px solid #9F9F9F;;
+}
+
+.product-imgs{
+    display: grid;
+    grid-template-columns: repeat(3, 252px);
+    grid-template-rows: repeat(2, 339px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.product-imgs div{
+    background-color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9F9F9F;
+}
+
+.product-imgs img{
+    width: 250px;
+    height: 250px;
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.product-imgs div > p, .product-imgs div > button{
+    margin: 10px 10px;
+}
+
+.product-imgs div > button{
+    width: 100px;
+    height: 30px;
+    background-color: #EC7A23;
+    border: none;
+    align-self: flex-end;
+}
+
+.to-the-productDetails-page{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-notation-container{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border: 1px solid #9F9F9F;
+}
+
+.page-notation{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #434A3E;
+    border: none;
+    border-left: 1px solid #9F9F9F;
+}
+
+.active{
+    background-color: #434A3E;
+    color: #ffffff;
+}

@@ -1,0 +1,64 @@
+.HomeContainer{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #CBD8C1;
+    width: 100vw;
+    height: 100vh;
+    color: #707070;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.main-content > button{
+    width: 200px;
+    height: 50px;
+    background-color: #EC7A23;
+    border: none;
+}
+
+.go-to-the-main-page {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.go-to-the-main-page:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #707070;
+    margin: 30px 0;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 30px;
+}
+
+.carrot-svg{
+    width: 70px;
+    height: 70px;
+}

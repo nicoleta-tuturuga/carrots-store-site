@@ -1,0 +1,109 @@
+.product-details-page{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.product-details-page > a > img{
+    width: 500px;
+    height: 400px;
+}
+
+.product-details-page > a{
+    width: 45%;
+    align-self: center;
+}
+
+.product-details-page > div{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.pricing-details{
+    align-self: flex-end;
+}
+
+.pricing-details > p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pricing-details span{
+    color: #EC7A23;
+    font-weight: 500;
+
+}
+
+.pricing-details > button{
+    background-color: #EC7A23;
+    width: 150px;
+    height: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.add-to-cart{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.comments-section{
+    width: 90%;
+}
+
+.comments-section > div{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.comments-section img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-comment > p:first-child{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user-comment > p{
+    margin-bottom: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form > label{
+    margin: 10px 0;
+
+}
+
+form > input{
+    width: 350px;
+    padding: 8px;
+    border-radius: 5%;
+    border: 1px solid #9F9F9F;
+}
